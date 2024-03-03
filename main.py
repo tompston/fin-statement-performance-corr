@@ -1,12 +1,9 @@
 from typing import Callable, List, Optional, Tuple
 from datetime import datetime, timedelta
-from pymongo import MongoClient
-import matplotlib.pyplot as plt
+import requests, os, argparse
 from typing import Any, Dict
 import pandas as pd
-import requests, os
 import numpy as np
-import argparse
 
 BASE_URL = "https://financialmodelingprep.com/api/v3"
 
