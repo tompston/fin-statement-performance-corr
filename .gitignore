@@ -1,0 +1,12 @@
+.DS_Store
+*.pdf
+
+build
+tmp/
+.env
+.DS_Store
+
+out
+logs.log
+output.xlsx
+log.txt
