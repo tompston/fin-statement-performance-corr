@@ -324,8 +324,8 @@ def get_sp500_tickers() -> Tuple[List[str], Optional[str]]:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--token', type=str, required=True, help='Your name')
-    parser.add_argument('--num_tickers', type=int, default=500 ,required=False, help='Your age')
+    parser.add_argument('--token', type=str, required=True, help='FMP API token')
+    parser.add_argument('--num_tickers', type=int, default=500 ,required=False, help='Number of tickers to analyze')
     parser.add_argument('--mode', type=str, default="CORR" ,required=False, help='CORR to analyze the data, FETCH to fetch the data')
     args = parser.parse_args()
     
